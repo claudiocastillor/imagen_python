@@ -15,6 +15,7 @@ RUN mkdir /datos1
 WORKDIR /datos1
 RUN touch f2.txt
 
+
 #COPY: 
 COPY index.html .
 COPY app.log /datos
